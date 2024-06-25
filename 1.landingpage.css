@@ -1,0 +1,133 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #efc326;
+}
+
+header {
+    background-color: #ff9100;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #000000;
+}
+
+.feature {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 248, 5, 0.975);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.feature img {
+    max-width: 80px;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.feature h3 {
+    color: #00bc06;
+}
+
+.feature p {
+    color: #00de16;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+}
+
+th {
+    background-color: #00671d;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.Reviews {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.Reviews img {
+    max-width: 80px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.Reviews blockquote {
+    font-style: italic;
+    color: #666;
+}
+
+.Reviews cite {
+    font-weight: bold;
+    display: block;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #ec8a00;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
